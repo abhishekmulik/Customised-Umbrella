@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: thin solid black;
+    height: 100%;
+    align-items: center;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+#umbrella-image{
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.color-row{
+    display: flex;
+    gap: 10px;
+}
+.colors{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: thin solid black;
+}
+
